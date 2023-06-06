@@ -19,6 +19,13 @@
   {% for project in projects.assignments %}
     <div class="item">
 
+      <div class="upper-row">
+        <span class="project-title">
+          {{ project.title }}
+        </span>
+        <div class="time">{{ project.time }}</div>
+      </div><!--//upper-row-->
+
       <span class="project-title">
         {% if project.link %}
         <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
