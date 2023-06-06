@@ -80,7 +80,7 @@ projects:
         link: 
         tagline: |
             - Role: Hybrid - Software Engineer and Data Scientist
-            - Trained and evaluated custom models including YoloV3, YoloV4, Tiny-yolo, MobileNet V2 for mask detection and social distancing detection tasks.
+            - Trained and evaluated custom models including YoloV3, YoloV4, Tiny-yolo, MobileNet V2 for <b>mask detection and social distancing detection</b> tasks.
             - Deployed the models on SAP AI Core, integrated with RabbitMQ/SAP EMS for end-point live inferencing
             - Built a dashboard app on SAPUI5 for end-user (administrator) consumption.
             - Platform - SAP AI Core, SAP BTP (UI5 Application)
