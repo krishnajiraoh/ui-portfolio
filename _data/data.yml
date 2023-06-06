@@ -77,7 +77,7 @@ projects:
     intro: 
     assignments:
       - title: SAP Initiative for Covid Spread Prevention 
-      - time: July-Dec 2020
+        time: July - Dec 2020
         link: 
         tagline: |
             - Role: Hybrid - Software Engineer and Data Scientist
@@ -86,7 +86,8 @@ projects:
             - Built a dashboard app on <b>SAPUI5</b> for end-user (administrator) consumption.
             - Platform - SAP AI Core, <b>SAP BTP (UI5 Application)</b>
 
-      - title: SAP AI Frontrunners – Collaboration Manager (July 2022 - Present)
+      - title: SAP AI Frontrunners – Collaboration Manager 
+        time : July 2022 - Present
         link: "#"
         tagline: |
             - Play the role of <b>UI Consultant</b> and guide the team on maintaining the <b>legacy code</b>.
