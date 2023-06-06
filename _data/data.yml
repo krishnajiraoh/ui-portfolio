@@ -119,13 +119,29 @@ projects:
             - Built a dashboard app on SAPUI5 for end-user (administrator) consumption.
             - Platform - SAP AI Core, SAP BTP (UI5 Application)
 
-      - title: DevStudio
+      - title: SAP AI Frontrunners – Collaboration Manager (July 2022 - Present)
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: |
+            - Play the role of UI Consultant and guide the team on maintaining the legacy code.
+            - Rebased a part of the UI code to implement unit tests using Qunits and improved the code coverage from 5% to 45% (in-process)
 
-      - title: Tempo
+      - title: SAP Solution Manager - System monitoring (July 2016- Dec 2020)
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: |
+            - Built and maintained the E2E webapp (SAPUI5, oDATA, ABAP)
+            - Designed and implemented UI elements including and not limited to Table, Custom List, Settings Popover, Messages Manager, Splitter Layouts, Tree Tables, SelectList, Dialog, VizFrame, Micro-charts, Forms.
+            - Implemented functionalities including and not limited to:
+              - Performance improvements: oÐata Pagination, filtering & sorting.
+              - Analytics view: Viz Frame charts (Bar, Line, Heatmap)
+              - Fuzzy Search: Leveraged SAP Hana to provide a fuzzy search of the entire database
+              records.
+              - Personalization: Implemented the framework that enables users to drag & drop the
+              standard application views and create custom views.
+              - Router navigation: Provided contextual navigation and shareable application URLs.
+              - Inline visualizations: Embedded the micro-charts (Stacked Bar) on table records.
+              - Custom Control: Extended the control to add uniform widths to the standard Stacked Bar controls.
+              - Data export (CSV)
+            - Adopted TDD and achieved a coverage of ~60% on the unit tests (Qunits, sinon.js)
 
       - title: Atom
         link: "#"
