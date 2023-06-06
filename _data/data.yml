@@ -76,7 +76,8 @@ projects:
     title: Projects
     intro: 
     assignments:
-      - title: SAP Initiative for Covid Spread Prevention (July-Dec 2020)
+      - title: SAP Initiative for Covid Spread Prevention 
+      - time: July-Dec 2020
         link: 
         tagline: |
             - Role: Hybrid - Software Engineer and Data Scientist
