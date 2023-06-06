@@ -49,29 +49,29 @@ sidebar:
 
 career-profile:
     title: Career Profile
-    summary: 
+    summary: to-do
 education:
     title: Education
     info:
       - degree: BTech in Information Technology
         university: Coimbatore Institute of Technology, India
         time: 2009 - 2013
-        details: |
+        details: to-do
 experiences:
     title: Experiences
     info:
       - role: Senior Developer
         time: 2021 - Present
         company: SAP Labs
-        details: 
+        details: to-do
       - role: Developer
         time: 2016 - 2020
         company: SAP Labs
-        details: 
+        details: to-do
       - role: Associate Developer
         time: 2013 - 2016
         company: SAP Labs
-        details: 
+        details: to-do
 projects:
     title: Projects
     intro: 
@@ -165,20 +165,20 @@ skills:
       - name: OData
         level: 75%
 
+      - name: Python for Data Science
+        level: 75%
+
+      - name: SAP ABAP
+        level: 75%
+        
       - name: React
         level: 60%
 
       - name: Next.js
-        level: 50%
-
-      - name: Python for Data Science
-        level: 75%
+        level: 60%
 
       - name: Java(Spring)
         level: 60%
-
-      - name: SAP ABAP
-        level: 75%
 
       - name: Docker
         level: 50%
