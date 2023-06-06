@@ -81,54 +81,53 @@ projects:
         tagline: |
             - Role: Hybrid - Software Engineer and Data Scientist
             - Trained and evaluated custom models including YoloV3, YoloV4, Tiny-yolo, MobileNet V2 for <b>mask detection and social distancing detection</b> tasks.
-            - Deployed the models on SAP AI Core, integrated with RabbitMQ/SAP EMS for end-point live inferencing
-            - Built a dashboard app on SAPUI5 for end-user (administrator) consumption.
-            - Platform - SAP AI Core, SAP BTP (UI5 Application)
+            - Deployed the models on <b>SAP AI Core</b>, integrated with RabbitMQ/SAP EMS for end-point live inferencing
+            - Built a dashboard app on <b>SAPUI5</b> for end-user (administrator) consumption.
+            - Platform - SAP AI Core, <b>SAP BTP (UI5 Application)</b>
 
       - title: SAP AI Frontrunners – Collaboration Manager (July 2022 - Present)
         link: "#"
         tagline: |
-            - Play the role of UI Consultant and guide the team on maintaining the legacy code.
-            - Rebased a part of the UI code to implement unit tests using Qunits and improved the code coverage from 5% to 45% (in-process)
+            - Play the role of <b>UI Consultant</b> and guide the team on maintaining the <b>legacy code</b>.
+            - Rebased a part of the UI code to implement <b>unit tests using Qunits</b> and improved the code coverage from 5% to 45% (in-process)
 
       - title: SAP Solution Manager - System monitoring (July 2016- Dec 2020)
         link: "#"
         tagline: |
-            - Built and maintained the E2E webapp (SAPUI5, oDATA, ABAP)
-            - Designed and implemented UI elements including and not limited to Table, Custom List, Settings Popover, Messages Manager, Splitter Layouts, Tree Tables, SelectList, Dialog, VizFrame, Micro-charts, Forms.
+            - Built and maintained the E2E webapp <b>(SAPUI5, oDATA, ABAP)</b>
+            - Designed and implemented UI elements including and not limited to <b>Table, Custom List, Settings Popover, Messages Manager, Splitter Layouts, Tree Tables, SelectList, Dialog, VizFrame, Micro-charts, Forms</b>.
             - Implemented functionalities including and not limited to:
-              - Performance improvements: oÐata Pagination, filtering & sorting.
-              - Analytics view: Viz Frame charts (Bar, Line, Heatmap)
-              - Fuzzy Search: Leveraged SAP Hana to provide a fuzzy search of the entire database
+              - <b>Performance</b> improvements: oÐata Pagination, filtering & sorting.
+              - <b>Analytics view</b>: Viz Frame charts (Bar, Line, Heatmap)
+              - <b>Fuzzy Search</b>: Leveraged SAP Hana to provide a fuzzy search of the entire database
               records.
-              - Personalization: Implemented the framework that enables users to drag & drop the
-              standard application views and create custom views.
-              - Router navigation: Provided contextual navigation and shareable application URLs.
-              - Inline visualizations: Embedded the micro-charts (Stacked Bar) on table records.
-              - Custom Control: Extended the control to add uniform widths to the standard Stacked Bar controls.
-              - Data export (CSV)
-            - Adopted TDD and achieved a coverage of ~60% on the unit tests (Qunits, sinon.js)
+              - <b>Personalization</b>: Implemented the framework that enables users to drag & drop the standard application views and create custom views.
+              - <b>Router navigation</b>: Provided contextual navigation and shareable application URLs.
+              - <b>Inline visualizations</b>: Embedded the micro-charts (Stacked Bar) on table records.
+              - <b>Custom Control</b>: Extended the control to add uniform widths to the standard Stacked Bar controls.
+              - <b>Data export (CSV)</b>
+            - Adopted <b>TDD</b> and achieved a coverage of ~60% on the unit tests <b>(Qunits, sinon.js)</b>
 
       - title: SAP Solution Manager – Notifications Management (July 2016- Jan 2017)
         link: "#"
         tagline: |
-            - Developed a single page webapp that contains a Smart Filterbar and a Smart Table
+            - Developed a single page webapp that contains a <b>Smart Filterbar</b> and a <b>Smart Table</b>
             - Provided standard table functionalities including Search, sort, filter on the oData layer with automatic UI elements binding.
 
       - title: SAP Solution Manager – Metric Monitoring (July 2017- Dec 2020)
         link: "#"
         tagline: |
-            - Developed reusable analytics view for visualizing metrics data and which could be embedded by other monitoring apps.
-            - Implemented the core functionalities including Timeframe specification using DateTime pickers, and configuration to switch Chart types and data aggregations functions.
-            - Also provided an inbuilt Time-series forecast feature based on SAP HANA PAL Algorithms (ARIMA, AR)
+            - Developed <b>reusabl</b>e analytics view for visualizing metrics data and which could be <b>embedded</b> by other monitoring apps.
+            - Implemented the core functionalities including Timeframe specification using <b>DateTime</b> pickers, and <b>configuration</b> to switch Chart types and data aggregations functions.
+            - Also provided an <b>inbuilt Time-series forecast feature</b> based on SAP HANA PAL Algorithms (ARIMA, AR)
 
       - title: Threshold-less Monitoring for SAP Focused Run (Jan-Dec 2021)
         link: "#"
         tagline: |
             - Role: Hybrid - Software Engineer and Data Scientist
-            - Conceptualized and proposed an idea to replace static thresholds with the ones derived from the data.
+            - <b>Conceptualized and proposed an idea to replace static thresholds</b> with the ones derived from the data.
             - Approach - Data driven, statistics based
-              - Window based techniques combined with sample Hypothesis tests to detect drifts and then raise alerts
+              - Window based techniques combined with sample <b>Hypothesis tests to detect drifts and then raise alerts</b>
             - Platform : SAP Hana, Hana-ML
 
       - title: Anomaly detection for SAP Focused Run (June 2018 – Jan 2020)
@@ -137,11 +136,11 @@ projects:
             - Role: Hybrid - Software Engineer and Data Scientist
             - Implemented the use-case to predict downtime situations of SAP Hana on-premise systems
               - Situations : Hana Out-of-Memory, DB Hanging
-            - Approach 1: Semi-supervised Technique
+            - Approach 1: <b>Semi-supervised Technique</b>
               - Trained a Deep learning Auto-encoder model on normal dataset of Hana DB metrics
               - Classified erroneous reconstruction of signals as Anomalous situations
               - Platform : TF model, Inferenced on R-ABAP
-            - Approach 2: Unsupervised technique
+            - Approach 2: <b>Unsupervised technique</b>
               - Used clustering algorithm(like DBScan) for classification of anomalies
               - Platform: SAP Hana, Hana-ML
             - Ensembled models from the two techniques for the decision making
