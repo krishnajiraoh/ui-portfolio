@@ -93,7 +93,8 @@ projects:
             - Play the role of <b>UI Consultant</b> and guide the team on maintaining the <b>legacy code</b>.
             - Rebased a part of the UI code to implement <b>unit tests using Qunits</b> and improved the code coverage from 5% to 45% (in-process)
 
-      - title: SAP Solution Manager - System monitoring (July 2016- Dec 2020)
+      - title: SAP Solution Manager - System monitoring 
+        time: July 2016- Dec 2020
         link: "#"
         tagline: |
             - Built and maintained the E2E webapp <b>(SAPUI5, oDATA, ABAP)</b>
@@ -110,20 +111,23 @@ projects:
               - <b>Data export (CSV)</b>
             - Adopted <b>TDD</b> and achieved a coverage of ~60% on the unit tests <b>(Qunits, sinon.js)</b>
 
-      - title: SAP Solution Manager – Notifications Management (July 2016- Jan 2017)
+      - title: SAP Solution Manager – Notifications Management 
+        time: July 2016- Jan 2017
         link: "#"
         tagline: |
             - Developed a single page webapp that contains a <b>Smart Filterbar</b> and a <b>Smart Table</b>
             - Provided standard table functionalities including Search, sort, filter on the oData layer with automatic UI elements binding.
 
-      - title: SAP Solution Manager – Metric Monitoring (July 2017- Dec 2020)
+      - title: SAP Solution Manager – Metric Monitoring 
+        time: July 2017- Dec 2020
         link: "#"
         tagline: |
             - Developed <b>reusabl</b>e analytics view for visualizing metrics data and which could be <b>embedded</b> by other monitoring apps.
             - Implemented the core functionalities including Timeframe specification using <b>DateTime</b> pickers, and <b>configuration</b> to switch Chart types and data aggregations functions.
             - Also provided an <b>inbuilt Time-series forecast feature</b> based on SAP HANA PAL Algorithms (ARIMA, AR)
 
-      - title: Threshold-less Monitoring for SAP Focused Run (Jan-Dec 2021)
+      - title: Threshold-less Monitoring for SAP Focused Run 
+        time: Jan-Dec 2021
         link: "#"
         tagline: |
             - Role: Hybrid - Software Engineer and Data Scientist
@@ -132,7 +136,8 @@ projects:
               - Window based techniques combined with sample <b>Hypothesis tests to detect drifts and then raise alerts</b>
             - Platform : SAP Hana, Hana-ML
 
-      - title: Anomaly detection for SAP Focused Run (June 2018 – Jan 2020)
+      - title: Anomaly detection for SAP Focused Run 
+        time: June 2018 – Jan 2020
         link: "#"
         tagline: |
             - Role: Hybrid - Software Engineer and Data Scientist
