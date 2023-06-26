@@ -60,43 +60,17 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Senior Developer
+      - role: SAP AI Frontrunners – Collaboration Manager (Senior Developer)
         time: 2021 - Present
         company: SAP Labs
-        details: to-do
-      - role: Developer
-        time: 2016 - 2020
-        company: SAP Labs
-        details: to-do
-      - role: Associate Developer
-        time: 2013 - 2016
-        company: SAP Labs
-        details: to-do
-projects:
-    title: Projects
-    intro: 
-    assignments:
-      - title: SAP Initiative for Covid Spread Prevention 
-        time: July - Dec 2020
-        link: 
-        tagline: |
-            - Role: Hybrid - Software Engineer and Data Scientist
-            - Trained and evaluated custom models including YoloV3, YoloV4, Tiny-yolo, MobileNet V2 for <b>mask detection and social distancing detection</b> tasks.
-            - Deployed the models on <b>SAP AI Core</b>, integrated with RabbitMQ/SAP EMS for end-point live inferencing
-            - Built a dashboard app on <b>SAPUI5</b> for end-user (administrator) consumption.
-            - Platform - SAP AI Core, <b>SAP BTP (UI5 Application)</b>
-
-      - title: SAP AI Frontrunners – Collaboration Manager 
-        time : July 2022 - Present
-        link: "#"
-        tagline: |
+        details: |
             - Play the role of <b>UI Consultant</b> and guide the team on maintaining the <b>legacy code</b>.
             - Rebased a part of the UI code to implement <b>unit tests using Qunits</b> and improved the code coverage from 5% to 45% (in-process)
-
-      - title: SAP Solution Manager - System monitoring 
+            
+      - role: SAP Solution Manager - System monitoring (Developer)
         time: July 2016- Dec 2020
-        link: "#"
-        tagline: |
+        company: SAP Labs
+        details: |
             - Built and maintained the E2E webapp <b>(SAPUI5, oDATA, ABAP)</b>
             - Designed and implemented UI elements including and not limited to <b>Table, Custom List, Settings Popover, Messages Manager, Splitter Layouts, Tree Tables, SelectList, Dialog, VizFrame, Micro-charts, Forms</b>.
             - Implemented functionalities including and not limited to:
@@ -111,20 +85,34 @@ projects:
               - <b>Data export (CSV)</b>
             - Adopted <b>TDD</b> and achieved a coverage of ~60% on the unit tests <b>(Qunits, sinon.js)</b>
 
-      - title: SAP Solution Manager – Notifications Management 
+      - role: SAP Solution Manager – Notifications Management (Developer)
         time: July 2016- Jan 2017
-        link: "#"
-        tagline: |
+        company: SAP Labs
+        details: |
             - Developed a single page webapp that contains a <b>Smart Filterbar</b> and a <b>Smart Table</b>
             - Provided standard table functionalities including Search, sort, filter on the oData layer with automatic UI elements binding.
 
-      - title: SAP Solution Manager – Metric Monitoring 
+      - title: SAP Solution Manager – Metric Monitoring (Developer)
         time: July 2017- Dec 2020
         link: "#"
         tagline: |
             - Developed <b>reusabl</b>e analytics view for visualizing metrics data and which could be <b>embedded</b> by other monitoring apps.
             - Implemented the core functionalities including Timeframe specification using <b>DateTime</b> pickers, and <b>configuration</b> to switch Chart types and data aggregations functions.
             - Also provided an <b>inbuilt Time-series forecast feature</b> based on SAP HANA PAL Algorithms (ARIMA, AR)
+      
+projects:
+    title: Projects
+    intro: 
+    assignments:
+      - title: SAP Initiative for Covid Spread Prevention 
+        time: July - Dec 2020
+        link: 
+        tagline: |
+            - Role: Hybrid - Software Engineer and Data Scientist
+            - Trained and evaluated custom models including YoloV3, YoloV4, Tiny-yolo, MobileNet V2 for <b>mask detection and social distancing detection</b> tasks.
+            - Deployed the models on <b>SAP AI Core</b>, integrated with RabbitMQ/SAP EMS for end-point live inferencing
+            - Built a dashboard app on <b>SAPUI5</b> for end-user (administrator) consumption.
+            - Platform - SAP AI Core, <b>SAP BTP (UI5 Application)</b>
 
       - title: Threshold-less Monitoring for SAP Focused Run 
         time: Jan-Dec 2021
