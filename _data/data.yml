@@ -67,7 +67,7 @@ experiences:
             - Play the role of <b>UI Consultant</b> and guide the team on maintaining the <b>legacy code</b>.
             - Rebased a part of the UI code to implement <b>unit tests using Qunits</b> and improved the code coverage from 5% to 45% (in-process)
 
-      - role : Software Engineer and Data Scientist ( SAP CALM Outage Detection (Mar 2020 – June 2021 )
+      - role : SAP CALM Outage Detection (Software Engineer and Data Scientist)
         time : 2020 - 2021
         company: SAP Labs
         details : |
@@ -115,7 +115,7 @@ experiences:
             - Implemented the core functionalities including Timeframe specification using <b>DateTime</b> pickers, and <b>configuration</b> to switch Chart types and data aggregations functions.
             - Also provided an <b>inbuilt Time-series forecast feature</b> based on SAP HANA PAL Algorithms (ARIMA, AR)
 
-      - title: Associate Developer (SAP Lumira)
+      - title: SAP Lumira (Associate Developer)
         time: 2013-2015
         details: |
             - Gained domain knowledge by doing manual testing and BAT; 􀀀
