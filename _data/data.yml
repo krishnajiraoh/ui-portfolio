@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: krishnajirao.h@gmail.com
     phone: +91 9980462900
-    timezone: Indian Standard Time (IST
+    timezone: Indian Standard Time (IST)
     citizenship: Indian
     website: #do not add http://
     linkedin: krishnaji-rao-63419a21
@@ -49,7 +49,7 @@ sidebar:
 
 career-profile:
     title: Career Profile
-    summary: to-do
+    summary: Results-driven software engineer and data scientist with expertise in SAP technologies. Experienced in developing and deploying custom models for Covid spread prevention, implementing UI solutions, and providing end-to-end monitoring and anomaly detection for enterprise systems. Strong skills in SAPUI5, oDATA, ABAP, machine learning, and data-driven decision making. Adept at collaborating with cross-functional teams to deliver innovative solutions.
 education:
     title: Education
     info:
