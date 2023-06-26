@@ -71,7 +71,7 @@ experiences:
         time : 2020 - 2021
         company: SAP Labs
         details : |
-            - Implemented following micro-services in SAP SCP Cloud Foundry environment.
+            - Implemented following micro-services in SAP BTP Cloud Foundry environment.
                 - Data collector (Spring boot) – that pulls data from HANA cloud instances and publishes to a message broker (SAP Enterprise Messaging Service)
                 - Worker service (Spring boot) to consume data from message broker and push it to an Amazon S3 Object store bucket.
             - Deployed the on-premise ML models (Flask, Tensorflow, LSTM, Supervised) in the cloud
@@ -107,7 +107,7 @@ experiences:
             - Developed a single page webapp that contains a <b>Smart Filterbar</b> and a <b>Smart Table</b>
             - Provided standard table functionalities including Search, sort, filter on the oData layer with automatic UI elements binding.
 
-      - title: SAP Solution Manager – Metric Monitoring (Developer)
+      - role: SAP Solution Manager – Metric Monitoring (Developer)
         time: July 2017- Dec 2020
         link: "#"
         details: |
@@ -115,7 +115,7 @@ experiences:
             - Implemented the core functionalities including Timeframe specification using <b>DateTime</b> pickers, and <b>configuration</b> to switch Chart types and data aggregations functions.
             - Also provided an <b>inbuilt Time-series forecast feature</b> based on SAP HANA PAL Algorithms (ARIMA, AR)
 
-      - title: SAP Lumira (Associate Developer)
+      - role: SAP Lumira (Associate Developer)
         time: 2013-2015
         details: |
             - Gained domain knowledge by doing manual testing and BAT; 􀀀
