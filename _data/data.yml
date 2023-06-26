@@ -71,13 +71,13 @@ experiences:
         time : 2020 - 2021
         company: SAP Labs
         details : |
-            - Implemented following micro-services in SAP BTP Cloud Foundry environment.
-                - Data collector (Spring boot) – that pulls data from HANA cloud instances and publishes to a message broker (SAP Enterprise Messaging Service)
-                - Worker service (Spring boot) to consume data from message broker and push it to an Amazon S3 Object store bucket.
+            - Implemented following <b>micro-services</b> in SAP BTP Cloud Foundry environment.
+                - <b>Data collector (Spring boot)</b> – that pulls data from HANA cloud instances and publishes to a message broker (SAP Enterprise Messaging Service)
+                - <b>Worker service (Spring boot)</b> to consume data from message broker and push it to an Amazon S3 Object store bucket.
             - Deployed the on-premise ML models (Flask, Tensorflow, LSTM, Supervised) in the cloud
                 - Proposed & implemented a semi-supervised model based on the cloud data.
                 - Evaluated the model to observe better predictions.
-                - Researched on Unsupervised
+                - Researched on Unsupervised techniques
             - Proposed & productized the following use-cases:
                 - Automatic threshold recommendation using statistics (IQ range, Skewness)
                 - Multi-variate analysis on metrics to identify the best features for supervised models.
