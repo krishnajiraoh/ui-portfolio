@@ -66,7 +66,22 @@ experiences:
         details: |
             - Play the role of <b>UI Consultant</b> and guide the team on maintaining the <b>legacy code</b>.
             - Rebased a part of the UI code to implement <b>unit tests using Qunits</b> and improved the code coverage from 5% to 45% (in-process)
-            
+
+      - role : Software Engineer and Data Scientist ( SAP CALM Outage Detection (Mar 2020 – June 2021 )
+        time : 2020 - 2021
+        company: SAP Labs
+        details : |
+            - Implemented following micro-services in SAP SCP Cloud Foundry environment.
+                - Data collector (Spring boot) – that pulls data from HANA cloud instances and publishes to a message broker (SAP Enterprise Messaging Service)
+                - Worker service (Spring boot) to consume data from message broker and push it to an Amazon S3 Object store bucket.
+            - Deployed the on-premise ML models (Flask, Tensorflow, LSTM, Supervised) in the cloud
+                - Proposed & implemented a semi-supervised model based on the cloud data.
+                - Evaluated the model to observe better predictions.
+                - Researched on Unsupervised
+            - Proposed & productized the following use-cases:
+                - Automatic threshold recommendation using statistics (IQ range, Skewness)
+                - Multi-variate analysis on metrics to identify the best features for supervised models.
+                
       - role: SAP Solution Manager - System monitoring (Developer)
         time: July 2016- Dec 2020
         company: SAP Labs
@@ -95,11 +110,20 @@ experiences:
       - title: SAP Solution Manager – Metric Monitoring (Developer)
         time: July 2017- Dec 2020
         link: "#"
-        tagline: |
+        details: |
             - Developed <b>reusabl</b>e analytics view for visualizing metrics data and which could be <b>embedded</b> by other monitoring apps.
             - Implemented the core functionalities including Timeframe specification using <b>DateTime</b> pickers, and <b>configuration</b> to switch Chart types and data aggregations functions.
             - Also provided an <b>inbuilt Time-series forecast feature</b> based on SAP HANA PAL Algorithms (ARIMA, AR)
-      
+
+      - title: Associate Developer (SAP Lumira)
+        time: 2013-2015
+        details: |
+            - Gained domain knowledge by doing manual testing and BAT; 􀀀
+            - Worked on implementing PAL on Hana
+                -  Implemented the algorithm Silhouette which calculates the efficiency of the various clustering algorithms (Data Science)
+            • Implemented the APIs required for incorporating KXEN algorithms in PA (JAVA);
+            • Helped the team in resolving the Fortify issues;
+        
 projects:
     title: Projects
     intro: 
