@@ -49,7 +49,7 @@ sidebar:
 
 career-profile:
     title: Career Profile
-    summary: Results-driven software engineer and data scientist with expertise in SAP technologies. Experienced in developing and deploying custom models for Covid spread prevention, implementing UI solutions, and providing end-to-end monitoring and anomaly detection for enterprise systems. Strong skills in SAPUI5, oDATA, ABAP, machine learning, and data-driven decision making. Adept at collaborating with cross-functional teams to deliver innovative solutions.
+    summary: Results-driven software engineer and data scientist with expertise in SAP technologies. <b>Experienced in developing and deploying custom models for Covid spread prevention, implementing UI solutions, and providing end-to-end monitoring and anomaly detection for enterprise systems. <b>Strong skills in SAPUI5, oDATA, ABAP, machine learning, and data-driven decision making. <b>Adept at collaborating with cross-functional teams to deliver innovative solutions.
 education:
     title: Education
     info:
@@ -60,12 +60,15 @@ education:
 experiences:
     title: Experiences
     info:
-      
-      
-      
-      
-      
-      
+      - role : Senior UI Developer
+        time : 2021 - Present
+        company: SAP Labs
+        details : |
+            - Took over the SAP Collaboration Manager project and refactored the code base.
+            -	Adopted the Test-Driven Development approach for refactoring and achieved unit tests (QUnits) coverage of ~80%
+            - Built and maintained GitHub CI/CD pipelines.
+            -	Worked closely with the UX team and designed the mock-ups adhering to FIORI and product standards.
+            -	Act as a mentor and consultant for the junior developers in the team.
 
       - role : SAP CALM Outage Detection (Software Engineer and Data Scientist)
         time : 2020 - 2021
