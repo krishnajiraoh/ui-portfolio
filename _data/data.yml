@@ -68,65 +68,38 @@ experiences:
             -	Adopted the Test-Driven Development approach for refactoring and achieved unit tests (QUnits) coverage of ~80%
             - Built and maintained GitHub CI/CD pipelines.
             -	Worked closely with the UX team and designed the mock-ups adhering to FIORI and product standards.
-            -	Act as a mentor and consultant for the junior developers in the team.
+            -	Act as a mentor and consultant for the junior developers in the team. 
 
-      - role : SAP CALM Outage Detection (Software Engineer and Data Scientist)
-        time : 2020 - 2021
+      - role : Senior Data Scientist
+        time : 2021 - Present
         company: SAP Labs
-        details : |
-            - Implemented following <b>micro-services</b> in SAP BTP Cloud Foundry environment.
-                - <b>Data collector (Spring boot)</b> – that pulls data from HANA cloud instances and publishes to a message broker (SAP Enterprise Messaging Service)
-                - <b>Worker service (Spring boot)</b> to consume data from message broker and push it to an Amazon S3 Object store bucket.
-            - Deployed the on-premise ML models (Flask, Tensorflow, LSTM, Supervised) in the cloud
-                - Proposed & implemented a semi-supervised model based on the cloud data.
-                - Evaluated the model to observe better predictions.
-                - Researched on Unsupervised techniques
-            - Proposed & productized the following use-cases:
-                - Automatic threshold recommendation using statistics (IQ range, Skewness)
-                - Multi-variate analysis on metrics to identify the best features for supervised models.
-                
-      - role: SAP Solution Manager - System monitoring (Developer)
-        time: July 2016- Dec 2020
+        details : |     
+            - Built an Assistant chatbot for SAP TechEd using LLM and SAP Joule (Generative AI).
+            -	Designed the architecture comprising the bot UI, assistant service (Python) and the messaging service (RabbitMQ) and showcased the capabilities to the stakeholders.
+            -	Implemented Metaflow scripts to extract data from SAP S/4 Hana systems.
+            -	Developed and maintained data pipelines to transform the extracted data and stored them as Knowledge Graphs
+            -	Collaborated with cross-team SAP S/4 Hana experts for best methods of data extraction.
+            -	Created RDF endpoints for query the Knowledge Graph and opening it for consumption.
+            -	Ramped up on Generative AI stack and solidified my knowledge by giving sessions for colleagues across the organization.
+
+      - role : Developer
+        time : 2017 - 2021
         company: SAP Labs
-        details: |
-            - Built and maintained the E2E webapp <b>(SAPUI5, oDATA, ABAP)</b>
-            - Designed and implemented UI elements including and not limited to <b>Table, Custom List, Settings Popover, Messages Manager, Splitter Layouts, Tree Tables, SelectList, Dialog, VizFrame, Micro-charts, Forms</b>.
-            - Implemented functionalities including and not limited to:
-              - <b>Performance</b> improvements: oÐata Pagination, filtering & sorting.
-              - <b>Analytics view</b>: Viz Frame charts (Bar, Line, Heatmap)
-              - <b>Fuzzy Search</b>: Leveraged SAP Hana to provide a fuzzy search of the entire database
-              records.
-              - <b>Personalization</b>: Implemented the framework that enables users to drag & drop the standard application views and create custom views.
-              - <b>Router navigation</b>: Provided contextual navigation and shareable application URLs.
-              - <b>Inline visualizations</b>: Embedded the micro-charts (Stacked Bar) on table records.
-              - <b>Custom Control</b>: Extended the control to add uniform widths to the standard Stacked Bar controls.
-              - <b>Data export (CSV)</b>
-            - Adopted <b>TDD</b> and achieved a coverage of ~60% on the unit tests <b>(Qunits, sinon.js)</b>
+        details : |     
+            - Build and maintained a monitoring dashboard adhering product and security standards.
+            - Designed the E2E application across SAPUI5, OData and ABAP stacks.  
+            -	Supported customers with timely resolution of incidents and sharing the knowledge via blogs and tutorials.
+            -	Regularly trained team-mates and cross organization colleagues on SAPUI5, Agile Development principles and received positive feedback.
 
-      - role: SAP Solution Manager – Notifications Management (Developer)
-        time: July 2016- Jan 2017
+      - role : Data Scientist
+        time : 2017 - 2021
         company: SAP Labs
-        details: |
-            - Developed a single page webapp that contains a <b>Smart Filterbar</b> and a <b>Smart Table</b>
-            - Provided standard table functionalities including Search, sort, filter on the oData layer with automatic UI elements binding.
-
-      - role: SAP Solution Manager – Metric Monitoring (Developer)
-        time: July 2017- Dec 2020
-        link: "#"
-        details: |
-            - Developed <b>reusabl</b>e analytics view for visualizing metrics data and which could be <b>embedded</b> by other monitoring apps.
-            - Implemented the core functionalities including Timeframe specification using <b>DateTime</b> pickers, and <b>configuration</b> to switch Chart types and data aggregations functions.
-            - Also provided an <b>inbuilt Time-series forecast feature</b> based on SAP HANA PAL Algorithms (ARIMA, AR)
-
-      - role: SAP Lumira (Associate Developer)
-        time: 2013-2015
-        details: |
-            - Gained domain knowledge by doing manual testing and BAT; 􀀀
-            - Worked on implementing PAL on Hana
-                -  Implemented the algorithm Silhouette which calculates the efficiency of the various clustering algorithms (Data Science)
-            • Implemented the APIs required for incorporating KXEN algorithms in PA (JAVA);
-            • Helped the team in resolving the Fortify issues;
-        
+        details : |    
+            - Demonstrated productization skills by taking up a raw idea and converting it to a PoC.
+            -	Implemented the Anomaly detection use-case for the cloud infrastructure.
+            - Recommended an alternative approach to threshold-based alerting by using Statistical methods.
+            - Showcased the ability to go the extra mile by assuming the role of full stack development and integrating the newer approach into the existing solution.
+                                                                                                                                                                                                                                                                                                                              
 projects:
     title: Projects
     intro: 
@@ -157,7 +130,7 @@ projects:
             - Approach - Data driven, statistics based
               - Window based techniques combined with sample <b>Hypothesis tests to detect drifts and then raise alerts</b>
             - Platform : SAP Hana, Hana-ML
-
+            
       - title: Anomaly detection for SAP Focused Run 
         time: June 2018 – Jan 2020
         link: "#"
@@ -173,6 +146,63 @@ projects:
               - Used clustering algorithm(like DBScan) for classification of anomalies
               - Platform: SAP Hana, Hana-ML
             - Ensembled models from the two techniques for the decision making
+
+      - title : SAP CALM Outage Detection (Software Engineer and Data Scientist)
+        time : 2020 - 2021
+        company: SAP Labs
+        tagline : |
+            - Implemented following <b>micro-services</b> in SAP BTP Cloud Foundry environment.
+                - <b>Data collector (Spring boot)</b> – that pulls data from HANA cloud instances and publishes to a message broker (SAP Enterprise Messaging Service)
+                - <b>Worker service (Spring boot)</b> to consume data from message broker and push it to an Amazon S3 Object store bucket.
+            - Deployed the on-premise ML models (Flask, Tensorflow, LSTM, Supervised) in the cloud
+                - Proposed & implemented a semi-supervised model based on the cloud data.
+                - Evaluated the model to observe better predictions.
+                - Researched on Unsupervised techniques
+            - Proposed & productized the following use-cases:
+                - Automatic threshold recommendation using statistics (IQ range, Skewness)
+                - Multi-variate analysis on metrics to identify the best features for supervised models.
+          
+      - title: SAP Solution Manager - System monitoring (Developer)
+        time: July 2016- Dec 2020
+        company: SAP Labs
+        tagline: |
+            - Built and maintained the E2E webapp <b>(SAPUI5, oDATA, ABAP)</b>
+            - Designed and implemented UI elements including and not limited to <b>Table, Custom List, Settings Popover, Messages Manager, Splitter Layouts, Tree Tables, SelectList, Dialog, VizFrame, Micro-charts, Forms</b>.
+            - Implemented functionalities including and not limited to:
+              - <b>Performance</b> improvements: oÐata Pagination, filtering & sorting.
+              - <b>Analytics view</b>: Viz Frame charts (Bar, Line, Heatmap)
+              - <b>Fuzzy Search</b>: Leveraged SAP Hana to provide a fuzzy search of the entire database
+              records.
+              - <b>Personalization</b>: Implemented the framework that enables users to drag & drop the standard application views and create custom views.
+              - <b>Router navigation</b>: Provided contextual navigation and shareable application URLs.
+              - <b>Inline visualizations</b>: Embedded the micro-charts (Stacked Bar) on table records.
+              - <b>Custom Control</b>: Extended the control to add uniform widths to the standard Stacked Bar controls.
+              - <b>Data export (CSV)</b>
+            - Adopted <b>TDD</b> and achieved a coverage of ~60% on the unit tests <b>(Qunits, sinon.js)</b>
+
+      - title: SAP Solution Manager – Notifications Management (Developer)
+        time: July 2016- Jan 2017
+        company: SAP Labs
+        tagline: |
+            - Developed a single page webapp that contains a <b>Smart Filterbar</b> and a <b>Smart Table</b>
+            - Provided standard table functionalities including Search, sort, filter on the oData layer with automatic UI elements binding.
+
+      - title: SAP Solution Manager – Metric Monitoring (Developer)
+        time: July 2017- Dec 2020
+        link: "#"
+        tagline: |
+            - Developed <b>reusabl</b>e analytics view for visualizing metrics data and which could be <b>embedded</b> by other monitoring apps.
+            - Implemented the core functionalities including Timeframe specification using <b>DateTime</b> pickers, and <b>configuration</b> to switch Chart types and data aggregations functions.
+            - Also provided an <b>inbuilt Time-series forecast feature</b> based on SAP HANA PAL Algorithms (ARIMA, AR)
+
+      - title: SAP Lumira (Associate Developer)
+        time: 2013-2015
+        tagline: |
+            - Gained domain knowledge by doing manual testing and BAT; 􀀀
+            - Worked on implementing PAL on Hana
+                -  Implemented the algorithm Silhouette which calculates the efficiency of the various clustering algorithms (Data Science)
+            • Implemented the APIs required for incorporating KXEN algorithms in PA (JAVA);
+            • Helped the team in resolving the Fortify issues;
 
 skills:
     title: Skills &amp; Proficiency
